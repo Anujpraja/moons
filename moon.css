@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.destination {
+    background-image: url("/home/anuj/Desktop/Project/destination/image/background-destination-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+nav {
+    height: 80px;
+    width: 50%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    backdrop-filter: blur;
+    border: 0px solid #0B0D17;
+    backdrop-filter: blur(8px);
+}
+
+.logo {
+    width: 48px;
+    height: 48px;
+    margin-top: 18px;
+    margin-left: 5%;
+}
+
+header hr {
+    width: 40%;
+    height: 0px;
+    margin-top: 40px;
+    z-index: 10;
+    position: absolute;
+    margin-left: 12%;
+}
+
+ul {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+
+ul li {
+    list-style: none;
+    text-decoration: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+    font-family: 'Barlow', sans-serif;
+}
+
+span {
+    display: flex;
+    justify-content: space-around;
+    width: 32px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Barlow', sans-serif;
+}
+
+.conatiner-3 {
+    display: flex;
+    margin-top: 2%;
+    width: 80%;
+    margin-left: 10%;
+    flex-wrap: wrap;
+}
+
+.conatiner-3 .imgfirst3 {
+    border-radius: 10px;
+    background-size: cover;
+    margin-top: 2.5%;
+    width: 50%;
+}
+
+.conatiner-3 .imgfirst3 img {
+    width: 70%;
+}
+
+.conatiner-3 .textbox3 {
+    flex: 1;
+    font-family: sans-serif;
+    padding: 3%;
+    font-size: 24px;
+}
+
+.conatiner-3 .textbox3 h1 {
+    font-size: 80px;
+    margin-top: 2%;
+    text-transform: uppercase;
+    letter-spacing: 4;
+    width: 100%;
+    color: white;
+    margin-top: 10%;
+    font-family: 'Bellefair', serif;
+    font-weight: 50;
+}
+
+.textbox3 p {
+    font-size: 16px;
+    width: 80%;
+    margin-top: 5%;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 100;
+}
+
+.main .underline {
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.underlinea:hover {
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.underlinear:hover {
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.underlinears:hover {
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.main {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.main li a {
+    font-size: 16px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+hr {
+    margin-top: 5%;
+}
+
+.textbox {
+    display: flex;
+    width: 80%;
+    line-height: 2;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.textbox h6 {
+    font-size: 14px;
+    color: #D0D6F9;
+    text-transform: uppercase;
+    font-family: 'Barlow', sans-serif;
+}
+
+.textbox p {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Barlow', sans-serif;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .destination {
+        background-image: url("/home/anuj/Desktop/projectfiles/background-destination-tablet.jpg");
+    }
+    header {
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2%;
+    }
+    nav {
+        height: 80px;
+        width: 70%;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        backdrop-filter: blur;
+        border: 0px solid #0B0D17;
+        backdrop-filter: blur(8px);
+    }
+    .logo {
+        width: 48px;
+        height: 48px;
+        margin-top: 18px;
+        margin-left: 5%;
+    }
+    header hr {
+        width: 40%;
+        height: 0px;
+        margin-top: 40px;
+        z-index: 10;
+        position: absolute;
+        margin-left: 12%;
+        display: none;
+    }
+    ul {
+        display: flex;
+        width: 90%;
+        justify-content: space-around;
+        margin-left: 10px;
+    }
+    ul li {
+        list-style: none;
+        text-decoration: none;
+    }
+    ul li a {
+        text-decoration: none;
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 14px;
+        font-family: 'Barlow', sans-serif;
+    }
+    span {
+        display: none;
+    }
+    .conatiner-3 {
+        display: inline-block;
+        margin-top: 2%;
+        width: 80%;
+        margin-left: 10%;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+    }
+    .conatiner-3 .imgfirst3 {
+        flex: 1;
+        width: 100%;
+        border-radius: 10px;
+        background-size: cover;
+        margin-top: 2.5%;
+    }
+    .conatiner-3 .imgfirst3 img {
+        width: 50%;
+    }
+    .conatiner-3 .textbox3 {
+        flex: 1;
+        font-family: sans-serif;
+        padding: 3%;
+        font-size: 24px;
+        margin-top: 5%;
+    }
+    .conatiner-3 .textbox3 h1 {
+        font-size: 80px;
+        margin-top: 2%;
+        text-transform: uppercase;
+        letter-spacing: 4;
+        width: 100%;
+        color: white;
+        margin-top: 10%;
+    }
+    .textbox3 p {
+        font-size: 16px;
+        width: 100%;
+        margin-top: 5%;
+        color: white;
+        letter-spacing: 1px;
+        line-height: 1.5;
+    }
+    .main {
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        margin-left: 25%;
+    }
+    .main li a {
+        font-size: 16px;
+    }
+    hr {
+        margin-top: 5%;
+    }
+    .textbox {
+        display: flex;
+        width: 100%;
+        line-height: 2;
+        justify-content: space-between;
+        margin-top: 5%;
+    }
+    .textbox h6 {
+        font-size: 14px;
+        color: #D0D6F9;
+        text-transform: uppercase;
+        font-family: 'Barlow', sans-serif;
+    }
+    .textbox p {
+        font-size: 24px;
+        text-transform: uppercase;
+        font-family: 'Barlow', sans-serif;
+        color: #FFFFFF;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .destination {
+        background-image: url("/home/anuj/Desktop/projectfiles/background-destination-tablet.jpg");
+    }
+    header {
+        display: none;
+    }
+    .conatiner-3 {
+        display: inline-block;
+        margin-top: 8%;
+        width: 80%;
+        margin-left: 10%;
+        flex-wrap: wrap;
+    }
+    .conatiner-3 .imgfirst3 {
+        flex: 1;
+        width: 100%;
+        border-radius: 10px;
+        background-size: cover;
+        margin-top: 2.5%;
+    }
+    .conatiner-3 .imgfirst3 img {
+        width: 50%;
+    }
+    .conatiner-3 .textbox3 {
+        flex: 1;
+        font-family: sans-serif;
+        padding: 3%;
+        font-size: 24px;
+        margin-top: 10%;
+    }
+    .conatiner-3 .textbox3 h1 {
+        font-size: 56px;
+        margin-top: 2%;
+        text-transform: uppercase;
+        letter-spacing: 4;
+        width: 100%;
+        color: white;
+        margin-top: 10%;
+    }
+    .textbox3 p {
+        font-size: 15px;
+        width: 100%;
+        margin-top: 5%;
+        color: white;
+        letter-spacing: 1px;
+        line-height: 1.5;
+    }
+    .main {
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        margin-left: 15%;
+    }
+    .main ul {
+        align-items: center;
+    }
+    .main li a {
+        font-size: 16px;
+    }
+    hr {
+        margin-top: 5%;
+    }
+    .textbox {
+        display: inherit;
+        width: 70%;
+        line-height: 2;
+        justify-content: space-between;
+        margin-top: 5%;
+        align-items: center;
+        margin-left: 15%;
+    }
+    .textbox h6 {
+        font-size: 14px;
+        color: #D0D6F9;
+        text-transform: uppercase;
+        font-family: 'Barlow', sans-serif;
+    }
+    .textbox p {
+        font-size: 24px;
+        text-transform: uppercase;
+        font-family: 'Barlow', sans-serif;
+        color: #FFFFFF;
+    }
+}

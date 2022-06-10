@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.destination {
+    background-image: url("/home/anuj/Desktop/projectfiles/background-home-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+nav {
+    height: 80px;
+    width: 50%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    backdrop-filter: blur;
+    border: 0px solid #0B0D17;
+    backdrop-filter: blur(8px);
+}
+
+.logo {
+    width: 48px;
+    height: 48px;
+    margin-top: 18px;
+    margin-left: 5%;
+}
+
+header hr {
+    width: 40%;
+    height: 0px;
+    margin-top: 40px;
+    z-index: 10;
+    position: absolute;
+    margin-left: 12%;
+}
+
+ul {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    margin-left: 10px;
+    border-bottom: 1px solid transparent;
+}
+
+ul li {
+    list-style: none;
+    text-decoration: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.underlinea:hover {
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.underlinear:hover {
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.underlinears:hover {
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+span {
+    display: flex;
+    justify-content: space-around;
+    width: 32px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Barlow', sans-serif;
+}
+
+.conatiner-3 {
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+.textbox3 {
+    display: inline-block;
+    width: 50%;
+}
+
+.conatiner-3 .textbox3 h1 {
+    font-size: 150px;
+    margin-top: 2%;
+    text-transform: uppercase;
+    letter-spacing: 4;
+    width: 100%;
+    color: white;
+    margin-top: 2%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1%;
+    font-family: 'Bellefair', serif;
+    font-weight: 200;
+}
+
+.conatiner-3 .textbox3 h6 {
+    font-size: 28px;
+    margin-top: 2%;
+    text-transform: uppercase;
+    letter-spacing: 1;
+    width: 100%;
+    color: white;
+    margin-top: 10%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1%;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 100;
+}
+
+.conatiner-3 .textbox3 p {
+    font-size: 18px;
+    width: 100%;
+    margin-top: 5%;
+    color: white;
+    letter-spacing: 0.5;
+    line-height: 1.5;
+    font-family: 'Bellefair', serif;
+    font-weight: 300;
+}
+
+.large-button span {
+    font-size: 28px;
+}
+
+.circle {
+    width: 40%;
+    margin-left: 10%;
+    padding: 7%;
+}
+
+.large-button {
+    display: grid;
+    place-items: center;
+    padding: 0 2em;
+    border-radius: 50%;
+    text-decoration: none;
+    margin-left: 20%;
+    margin-top: 10%;
+    width: 250px;
+    height: 250px;
+    z-index: 1;
+    background-color: hsl 231°, 77%, 90%;
+}
+
+.large-button::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    background-color: #FFFFFF;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    transition: transform 500ms ease-in-out;
+}
+
+.large-button:hover::after,
+.large-button:focus::after {
+    transform: scale(1.5);
+}
+
+@media only screen and (max-width: 768px) {
+    .destination {
+        background-image: url("/home/anuj/Desktop/projectfiles/background-home-tablet.jpg");
+    }
+    header {
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2%;
+    }
+    nav {
+        height: 80px;
+        width: 70%;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        backdrop-filter: blur;
+        border: 0px solid #0B0D17;
+        backdrop-filter: blur(8px);
+    }
+    .logo {
+        width: 48px;
+        height: 48px;
+        margin-top: 18px;
+        margin-left: 5%;
+    }
+    header hr {
+        width: 40%;
+        height: 0px;
+        margin-top: 40px;
+        z-index: 10;
+        position: absolute;
+        margin-left: 12%;
+        display: none;
+    }
+    ul {
+        display: flex;
+        width: 90%;
+        justify-content: space-around;
+        margin-left: 10px;
+    }
+    ul li {
+        list-style: none;
+        text-decoration: none;
+    }
+    ul li a {
+        text-decoration: none;
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 14px;
+        font-family: 'Barlow', sans-serif;
+    }
+    span {
+        display: none;
+    }
+    .conatiner-3 {
+        display: inline-block;
+        margin-top: 2%;
+        width: 80%;
+        margin-left: 10%;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+    }
+    .conatiner-3 .imgfirst3 {
+        flex: 1;
+        width: 100%;
+        border-radius: 10px;
+        background-size: cover;
+        margin-top: 2.5%;
+    }
+    .conatiner-3 .imgfirst3 img {
+        width: 50%;
+    }
+    .conatiner-3 .textbox3 {
+        width: 90%;
+        font-family: sans-serif;
+        padding: 3%;
+        font-size: 24px;
+        margin-top: 2%;
+    }
+    .conatiner-3 .textbox3 h1 {
+        font-size: 100px;
+        text-transform: uppercase;
+        text-align: center;
+        width: 100%;
+        color: white;
+        margin-top: 10%;
+    }
+    .textbox3 p {
+        font-size: 16px;
+        width: 100%;
+        margin-top: 5%;
+        color: white;
+        letter-spacing: 1px;
+        line-height: 1.5;
+    }
+    .textbox {
+        display: flex;
+        width: 100%;
+        line-height: 2;
+        justify-content: space-between;
+        margin-top: 5%;
+    }
+    .textbox h6 {
+        font-size: 14px;
+        color: #D0D6F9;
+        text-transform: uppercase;
+        font-family: 'Barlow', sans-serif;
+    }
+    .textbox p {
+        font-size: 24px;
+        text-transform: uppercase;
+        font-family: 'Barlow', sans-serif;
+        color: #FFFFFF;
+    }
+    .conatiner-3 .textbox3 h6 {
+        font-size: 20px;
+        margin-top: 2%;
+        text-transform: uppercase;
+        letter-spacing: 2;
+        width: 100%;
+        color: white;
+        margin-top: 10%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 1%;
+        z-index: 500;
+    }
+    .circle {
+        width: 80%;
+        align-items: center;
+    }
+    .large-button {
+        display: grid;
+        place-items: center;
+        padding: 0 2em;
+        border-radius: 50%;
+        text-decoration: none;
+        margin-top: 10%;
+        width: 250px;
+        height: 250px;
+        z-index: 1;
+        background-color: hsl 231°, 77%, 90%;
+    }
+    .large-button::after {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        background-color: #FFFFFF;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        transition: transform 500ms ease-in-out;
+    }
+    .large-button:hover::after,
+    .large-button:focus::after {
+        transform: scale(1.5);
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .destination {
+        background-image: url("/home/anuj/Desktop/projectfiles/background-home-mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .conatiner-3 {
+        display: inline-block;
+        margin-top: 15%;
+        width: 80%;
+        margin-left: 10%;
+        flex-wrap: wrap;
+    }
+    .conatiner-3 .imgfirst3 {
+        flex: 1;
+        width: 100%;
+        border-radius: 10px;
+        background-size: cover;
+        margin-top: 2.5%;
+    }
+    .conatiner-3 .imgfirst3 img {
+        width: 50%;
+    }
+    .conatiner-3 .textbox3 {
+        flex: 1;
+        font-family: sans-serif;
+        padding: 3%;
+        font-size: 24px;
+        margin-top: 10%;
+    }
+    .conatiner-3 .textbox3 h1 {
+        font-size: 80px;
+        margin-top: 2%;
+        text-transform: uppercase;
+        letter-spacing: 4;
+        width: 100%;
+        color: white;
+        margin-top: 10%;
+    }
+    .textbox3 p {
+        font-size: 15px;
+        width: 100%;
+        margin-top: 5%;
+        color: white;
+        letter-spacing: 1px;
+        line-height: 1.5;
+    }
+    .conatiner-3 .textbox3 h6 {
+        font-size: 20px;
+        margin-top: 2%;
+        text-transform: uppercase;
+        letter-spacing: 4;
+        width: 100%;
+        color: white;
+        margin-top: 10%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 1%;
+    }
+    .textbox {
+        display: inherit;
+        width: 80%;
+        line-height: 2;
+        justify-content: space-between;
+        margin-top: 5%;
+        align-items: center;
+        margin-left: 15%;
+    }
+    .textbox h6 {
+        font-size: 14px;
+        color: #D0D6F9;
+        text-transform: uppercase;
+        font-family: 'Barlow', sans-serif;
+    }
+    .textbox p {
+        font-size: 15px;
+        text-transform: uppercase;
+        font-family: 'Barlow', sans-serif;
+        color: #FFFFFF;
+    }
+    .circle {
+        width: 80%;
+        align-items: center;
+        margin-top: 10%;
+    }
+    .large-button {
+        display: grid;
+        place-items: center;
+        padding: 0 2em;
+        border-radius: 50%;
+        text-decoration: none;
+        margin-top: 10%;
+        width: 150px;
+        height: 150px;
+        z-index: 1;
+        background-color: hsl 231°, 77%, 90%;
+    }
+    .large-button::after {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        background-color: #FFFFFF;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        transition: transform 500ms ease-in-out;
+    }
+    .large-button:hover::after,
+    .large-button:focus::after {
+        transform: scale(1.5);
+    }
+}
