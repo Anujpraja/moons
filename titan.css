@@ -5,7 +5,7 @@
 }
 
 .destination {
-    background-image: url("/home/anuj/Desktop/Project/destination/image/background-destination-desktop.jpg");
+    background-image: url("background-destination-desktop.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -183,7 +183,7 @@ hr {
 
 @media only screen and (max-width: 768px) {
     .destination {
-        background-image: url("/home/anuj/Desktop/projectfiles/background-destination-tablet.jpg");
+        background-image: url("background-destination-tablet.jpg");
     }
     header {
         top: 0;
@@ -321,9 +321,9 @@ hr {
 
 @media only screen and (max-width: 375px) {
     .destination {
-        background-image: url("/home/anuj/Desktop/projectfiles/background-destination-tablet.jpg");
+        background-image: url("background-destination-tablet.jpg");
     }
-    header {
+    nav {
         display: none;
     }
     .conatiner-3 {

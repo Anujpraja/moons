@@ -5,7 +5,7 @@
 }
 
 .destination {
-    background-image: url("/home/anuj/Desktop/projectfiles/background-crew-desktop.jpg");
+    background-image: url("background-crew-desktop.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -179,7 +179,7 @@ span {
 
 @media only screen and (max-width: 768px) {
     .destination {
-        background-image: url("/home/anuj/Desktop/projectfiles/background-destination-tablet.jpg");
+        background-image: url("background-destination-tablet.jpg");
     }
     header {
         top: 0;
@@ -334,9 +334,9 @@ span {
 
 @media only screen and (max-width: 375px) {
     .destination {
-        background-image: url("/home/anuj/Desktop/projectfiles/background-destination-tablet.jpg");
+        background-image: url("background-destination-tablet.jpg");
     }
-    header {
+    nav {
         display: none;
     }
     .conatiner-3 {
@@ -354,10 +354,9 @@ span {
         background-size: cover;
         margin-top: 2.5%;
         align-items: center;
-        position: absolute;
     }
     .conatiner-3 .imgfirst3 img {
-        width: 66.5%;
+        width: 70%;
         align-items: center;
     }
     .conatiner-3 .textbox3 {
@@ -370,7 +369,7 @@ span {
         position: relative;
     }
     .conatiner-3 .textbox3 h1 {
-        font-size: 36px;
+        font-size: 24px;
         margin-top: 2%;
         text-transform: uppercase;
         letter-spacing: 4;
@@ -381,26 +380,12 @@ span {
         flex-wrap: wrap;
     }
     .textbox3 p {
-        font-size: 16px;
+        font-size: 15px;
         width: 100%;
         margin-top: 5%;
         color: white;
         letter-spacing: 1px;
         line-height: 1.5;
-    }
-    .main {
-        display: flex;
-        width: 90%;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
-        margin-left: 20%;
-    }
-    .main li a {
-        font-size: 16px;
-    }
-    hr {
-        margin-top: 5%;
     }
     .textbox {
         display: flex;

@@ -6,7 +6,7 @@
 }
 
 .destination {
-    background-image: url("/home/anuj/Desktop/projectfiles/background-home-desktop.jpg");
+    background-image: url("background-home-desktop.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -55,6 +55,10 @@ ul {
     justify-content: space-around;
     margin-left: 10px;
     border-bottom: 1px solid transparent;
+}
+
+.moblienavbar {
+    display: none;
 }
 
 ul li {
@@ -156,6 +160,11 @@ span {
     padding: 7%;
 }
 
+.lin {
+    font-size: 16px;
+    font-family: 'Bellefair', serif;
+}
+
 .large-button {
     display: grid;
     place-items: center;
@@ -188,7 +197,7 @@ span {
 
 @media only screen and (max-width: 768px) {
     .destination {
-        background-image: url("/home/anuj/Desktop/projectfiles/background-home-tablet.jpg");
+        background-image: url("background-home-tablet.jpg");
     }
     header {
         top: 0;
@@ -324,6 +333,12 @@ span {
         width: 80%;
         align-items: center;
     }
+    .lin {
+        font-size: 14px;
+        display: block;
+        align-items: center;
+        margin-left: -25%;
+    }
     .large-button {
         display: grid;
         place-items: center;
@@ -354,9 +369,12 @@ span {
 
 @media only screen and (max-width: 375px) {
     .destination {
-        background-image: url("/home/anuj/Desktop/projectfiles/background-home-mobile.jpg");
+        background-image: url("background-home-mobile.jpg");
         background-repeat: no-repeat;
         background-size: cover;
+    }
+    nav {
+        display: none;
     }
     .conatiner-3 {
         display: inline-block;
@@ -383,7 +401,7 @@ span {
         margin-top: 10%;
     }
     .conatiner-3 .textbox3 h1 {
-        font-size: 80px;
+        font-size: 40px;
         margin-top: 2%;
         text-transform: uppercase;
         letter-spacing: 4;
@@ -436,6 +454,11 @@ span {
         width: 80%;
         align-items: center;
         margin-top: 10%;
+    }
+    .lin {
+        font-size: 12px;
+        align-items: center;
+        margin-left: -50%;
     }
     .large-button {
         display: grid;

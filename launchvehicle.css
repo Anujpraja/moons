@@ -5,7 +5,7 @@
 }
 
 .destination {
-    background-image: url("/home/anuj/Desktop/Project/destination/image/background-destination-desktop.jpg");
+    background-image: url("background-destination-desktop.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -227,7 +227,7 @@ span {
 
 @media only screen and (max-width: 768px) {
     .destination {
-        background-image: url("/home/anuj/Desktop/projectfiles/background-destination-tablet.jpg");
+        background-image: url("background-destination-tablet.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         height: 1024px;
@@ -423,10 +423,10 @@ span {
 
 @media only screen and (max-width: 375px) {
     .destination {
-        background-image: url("/home/anuj/Desktop/projectfiles/background-technology-mobile.jpg");
+        background-image: url("background-technology-mobile.jpg");
         background-size: cover;
     }
-    header {
+    nav {
         display: none;
     }
     .conatiner-3 {
