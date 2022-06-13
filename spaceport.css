@@ -242,7 +242,7 @@ span {
     }
     nav {
         height: 80px;
-        width: 70%;
+        width: 90%;
         display: flex;
         position: relative;
         flex-direction: column;
@@ -353,11 +353,11 @@ span {
     }
     .circlelink {
         margin-top: 80px;
-        justify-content: space-between;
+        justify-content: space-evenly;
         height: auto;
-        width: 40%;
+        width: 70%;
         display: flex;
-        margin-left: 28%;
+        margin-left: 10%;
     }
     .circle {
         border-radius: 50%;

@@ -167,13 +167,44 @@ span {
     margin-left: 5px;
 }
 
-.dot {
+.dot1 {
     height: 10px;
     width: 10px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
     margin-left: 10px;
+}
+
+.dot2 {
+    height: 10px;
+    width: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.dot3 {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.dot4 {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.dot2:hover {
+    background-color: #bbb;
 }
 
 @media only screen and (max-width: 768px) {
@@ -190,7 +221,7 @@ span {
     }
     nav {
         height: 80px;
-        width: 70%;
+        width: 90%;
         display: flex;
         position: relative;
         flex-direction: column;
